@@ -8,7 +8,7 @@
 
 然后打开Vbox，打开File→Host Network Manager， 里面一般是空的，这时候点击添加按钮，会加入一行。这个就是加上host only的网络，什么都不要改，确认退出。
 
-![Screen Shot 2021-08-19 at 9.20.48 PM.png](%E9%9B%86%E7%BE%A4%E5%AE%89%E8%A3%85%E5%B0%8F%E7%99%BD%E7%AC%94%E8%AE%B0%20c81551372c5c4c0da5cb8aafc982010b/Screen_Shot_2021-08-19_at_9.20.48_PM.png)
+![](https://github.com/bchen4/geektime_k8s/raw/main/notes/img/1.png)
 
 # 建立VM
 
@@ -19,7 +19,7 @@
 
 1. 在Storage里的虚拟光驱下加入虚拟光盘。
     
-    ![Screen Shot 2021-08-19 at 9.25.45 PM.png](%E9%9B%86%E7%BE%A4%E5%AE%89%E8%A3%85%E5%B0%8F%E7%99%BD%E7%AC%94%E8%AE%B0%20c81551372c5c4c0da5cb8aafc982010b/Screen_Shot_2021-08-19_at_9.25.45_PM.png)
+    ![](https://github.com/bchen4/geektime_k8s/raw/main/notes/img/2.png)
     
 2. 设置network。第一个adapter是NAT，默认即可。点击Adapter2， enable之后选Host-only即可。Mac版本的Vbox没有在这里手动加ip的选项，暂时不用管。
 3. 在system里面点击processor tab，保证CPU个数不小于2。
